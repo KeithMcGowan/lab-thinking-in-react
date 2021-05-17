@@ -1,0 +1,16 @@
+.search-results {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.search-box {
+    width: 600px;
+    text-align: center;
+}
+
+.search-name,
+.search-box,
+.checkbox {
+    margin-bottom: 10px;
+}

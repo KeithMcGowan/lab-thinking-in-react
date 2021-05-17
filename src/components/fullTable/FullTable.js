@@ -22,6 +22,7 @@ class FullTable extends Component {
     // console.log("Here's the data ", data);
     return (
       <div className="full-table">
+        <h1>IronStore</h1>
         <Search executeSearch={this.filteredResults} />
         <ProductTable products={this.state.products} />
       </div>
